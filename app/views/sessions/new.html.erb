@@ -7,7 +7,7 @@
           </div>
 
           <div class="col-sm-8">
-          <%= f.text_field :email, class: "form-control", placeholder: "Enter e-mail", autofocus: true %>
+          <%= f.email_field :email, class: "form-control", placeholder: "Enter e-mail", autofocus: true %>
           </div>
       </div>
 
@@ -16,7 +16,7 @@
           <%= f.label :password %>
         </div>
         <div class="col-sm-8">
-          <%= f.password_field :password, rows:10, class: "form-control", autocomplete: 'off' %>
+          <%= f.password_field :password, class: "form-control", autocomplete: 'off' %>
         </div>
       </div> 
 
