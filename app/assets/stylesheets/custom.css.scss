@@ -11,6 +11,14 @@ $navbar-default-bg: #000  ;
   padding-left: 0px;
 }
 
+.badge {
+  background-color: #c1c11c;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold; 
+  color: #ffffff;
+}
+
 #logo {
   float: left;
   font-size: 1.8em;
